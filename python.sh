@@ -12,3 +12,9 @@ pip install -U pip
 #pip install torch torchvision torchaudio
 #pip install tensorflow
 pip install -r requirements.txt
+pip install torchvision
+
+export HF_HOME=/workspace/hf-home
+export HF_HUB_CACHE=/workspace/hf-hub-cache
+
+
