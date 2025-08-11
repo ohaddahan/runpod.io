@@ -1,5 +1,6 @@
 #!/bin/bash
 #
+apt-get update
 apt-get install python3.11 -y
 apt install python3.12-venv -y
 apt install vim -y
