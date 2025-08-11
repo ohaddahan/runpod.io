@@ -7,3 +7,5 @@ echo "alias gitstatus='git status'" >> ~/.bashrc
 echo "alias cp='cp -i'" >> ~/.bashrc
 echo "alias rm='rm -i'" >> ~/.bashrc
 echo "alias h='history'" >> ~/.bashrc
+echo "export HF_HOME=/workspace/hf-home" >>  ~/.bashrc
+echo "export HF_HUB_CACHE=/workspace/hf-hub-cache" >> ~/.bashrc
