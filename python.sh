@@ -1,15 +1,13 @@
 #!/bin/bash
-#
+export HF_HOME=/workspace/hf-home
+export HF_HUB_CACHE=/workspace/hf-hub-cache
 apt-get update
 apt-get install python3.11 -y
 apt install python3.12-venv -y
 apt install vim -y
 
-export HF_HOME=/workspace/hf-home
-export HF_HUB_CACHE=/workspace/hf-hub-cache
-#
 git clone https://github.com/fpgaminer/joycaption.git
-#
+
 python3 -m venv .venv
 source .venv/bin/activate
 pip config set global.cache-dir /workspace/pip-cache
