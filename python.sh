@@ -7,6 +7,7 @@ apt-get update
 apt-get install python3.11 -y
 apt install python3.12-venv -y
 apt install vim -y
+apt install rsync -y
 pip config set global.cache-dir /workspace/pip-cache
 
 python3 -m venv .venv
