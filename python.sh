@@ -1,7 +1,8 @@
 #!/bin/bash
 #
-apt-get install python3.11
-apt install python3.12-venv
+apt-get install python3.11 -y
+apt install python3.12-venv -y
+apt install vim -y
 #
 git clone https://github.com/fpgaminer/joycaption.git
 #
