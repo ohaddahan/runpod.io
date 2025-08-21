@@ -10,6 +10,8 @@ apt install vim -y
 apt install rsync -y
 pip config set global.cache-dir /workspace/pip-cache
 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 python3 -m venv .venv
 source .venv/bin/activate
 pip config set global.cache-dir /workspace/pip-cache
