@@ -9,6 +9,7 @@ apt install python3.12-venv -y
 apt install vim -y
 apt install rsync -y
 apt install libssl-dev -y
+apt install pkg-config -y
 pip config set global.cache-dir /workspace/pip-cache
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
