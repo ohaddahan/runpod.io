@@ -4,7 +4,7 @@
 export HF_HOME=/workspace/hf-home
 export HF_HUB_CACHE=/workspace/hf-hub-cache
 apt-get update
-apt-get install python3.11 -y
+apt-get install python3.12 -y
 apt install python3.12-venv -y
 apt install vim -y
 apt install rsync -y
