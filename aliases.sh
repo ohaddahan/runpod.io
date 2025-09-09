@@ -9,3 +9,4 @@ echo "alias rm='rm -i'" >> ~/.bashrc
 echo "alias h='history'" >> ~/.bashrc
 echo "export HF_HOME=/workspace/hf-home" >>  ~/.bashrc
 echo "export HF_HUB_CACHE=/workspace/hf-hub-cache" >> ~/.bashrc
+echo "alias python=/usr/bin/python3.12" >> ~/.bashrc
